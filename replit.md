@@ -1,6 +1,6 @@
 # CardioCare
 
-CardioCare is a mobile-friendly educational health-management prototype for tracking blood pressure, medications, lifestyle habits, and cardiovascular education.
+CardioCare is a mobile-friendly educational health-management prototype for tracking blood pressure, medications, lifestyle habits, care goals, and cardiovascular education.
 
 ## Run & Operate
 
@@ -22,7 +22,7 @@ CardioCare is a mobile-friendly educational health-management prototype for trac
 
 ## Where things live
 
-- `artifacts/cardiocare/src/App.tsx` — CardioCare routes, sample patient data, local interactions, and shared navigation.
+- `artifacts/cardiocare/src/App.tsx` — CardioCare routes (`/`, `/blood-pressure`, `/medications`, `/goals`, `/lifestyle`, `/education`, `/doctor-summary`, `/profile`), sample patient data, local interactions, and shared navigation.
 - `artifacts/cardiocare/src/index.css` — CardioCare visual tokens, responsive layout, cards, forms, charts, and modal styling.
 - `artifacts/cardiocare/package.json` — Vite app scripts and frontend dependencies.
 
@@ -31,10 +31,11 @@ CardioCare is a mobile-friendly educational health-management prototype for trac
 - The first release is frontend-only and uses local React state with sample patient data so the prototype is immediately usable without account setup or external services.
 - Health guidance is intentionally educational and avoids diagnostic claims or medication-change recommendations.
 - All primary tracking flows are available from a shared responsive shell with desktop sidebar navigation and mobile bottom navigation.
+- The provider summary is a local review modal and does not transmit patient data.
 
 ## Product
 
-CardioCare helps a patient review their day, record blood pressure and heart rate, review readings in a chart or history table, manage today's medications, update lifestyle metrics, read short educational guides, and keep care-team details visible. It includes persistent urgent-symptom guidance for severe chest pain, severe difficulty breathing, fainting, sudden weakness, or other serious symptoms.
+CardioCare helps a patient review their day, record blood pressure and heart rate, review weekly or monthly readings in a chart or history table, manage today's medications with scheduled times and adherence trends, update lifestyle metrics, monitor cardiovascular goals, read short educational guides, prepare a doctor summary, and keep care-team details visible. It includes persistent urgent-symptom guidance for severe chest pain, severe difficulty breathing, fainting, sudden weakness, or other serious symptoms.
 
 ## User preferences
 

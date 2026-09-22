@@ -1,0 +1,128 @@
+I already have a working CardioCare prototype for hypertension and cardiovascular disease management.
+
+I want you to upgrade the EXISTING application rather than rebuilding it from scratch.
+
+Keep all currently working features and improve the application so it looks like a polished, professional digital-health portfolio project suitable for presentation to researchers and inclusion in my CV.
+
+### 1. Visual Design
+
+* Give the app a sophisticated modern healthcare design.
+* Improve spacing, typography, cards, icons, buttons, and navigation.
+* Make the interface feel cohesive and professional.
+* Make it fully responsive and optimized for mobile screens.
+* Add subtle animations and transitions where appropriate.
+* Keep the design clean rather than overcrowded.
+
+### 2. Home Dashboard
+
+Create an impressive patient dashboard showing:
+
+* Latest blood pressure
+* Heart rate
+* Medication adherence
+* Weight
+* Physical activity
+* Today's health goals
+* Quick actions for recording BP and medication
+
+Add a clear visual summary of the patient's recent progress.
+
+### 3. Blood Pressure Monitoring
+
+Improve the BP section with:
+
+* Systolic and diastolic BP input
+* Heart rate
+* Date/time
+* Notes
+* History of measurements
+* Interactive BP trend chart
+* Weekly and monthly views
+* Clear educational interpretation of readings
+
+Do NOT present the app as a diagnostic tool.
+
+### 4. Medication Adherence
+
+Improve medication tracking:
+
+* Medication name
+* Dose
+* Frequency
+* Scheduled time
+* Taken/Missed status
+* Adherence percentage
+* Weekly adherence visualization
+
+Do not recommend changing medication doses or stopping medications.
+
+### 5. Lifestyle Dashboard
+
+Create attractive tracking cards for:
+
+* Steps/activity
+* Exercise
+* Weight
+* Sleep
+* Sodium intake
+* Water intake
+
+Show progress toward personalized goals.
+
+### 6. Cardiovascular Health Goals
+
+Add a goals section where patients can set and monitor goals such as:
+
+* Monitor BP regularly
+* Take medications consistently
+* Increase physical activity
+* Reduce sodium intake
+* Maintain healthy weight
+
+Show progress visually.
+
+### 7. Health Education
+
+Create an organized education section with short evidence-based educational cards covering:
+
+* Hypertension
+* Cardiovascular disease
+* Correct BP measurement
+* Medication adherence
+* Sodium reduction
+* Physical activity
+* Smoking cessation
+* Stress management
+* Warning signs requiring urgent medical attention
+
+### 8. Doctor Summary
+
+Add a feature called "Share with Healthcare Provider".
+
+It should generate a concise patient health summary containing:
+
+* Recent BP readings
+* BP trend
+* Heart rate
+* Medication adherence
+* Weight
+* Lifestyle information
+* Reported symptoms
+
+Make the summary easy to review by a healthcare professional.
+
+### 9. Safety
+
+Include a clear disclaimer that this is an educational/self-management prototype and does not replace professional medical advice.
+
+For potentially serious symptoms such as severe chest pain, severe shortness of breath, fainting, or other emergency warning signs, provide appropriate advice to seek urgent medical care.
+
+### 10. Portfolio Quality
+
+Add an "About CardioCare" section explaining:
+
+CardioCare is a digital-health prototype designed to support self-management and treatment engagement among patients with hypertension and cardiovascular disease.
+
+Do not claim clinical validation, diagnostic accuracy, or proven clinical effectiveness.
+
+Before changing anything, preserve all currently functioning features. After implementing the improvements, make sure the entire application still works correctly on mobile devices.
