@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "CardioCare"
+description = "A mobile-friendly health management prototype for people monitoring blood pressure, medications, lifestyle habits, and cardiovascular education."
+version = "1.0.0"
+id = "artifacts/cardiocare"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25432
+
+[services.development]
+run = "pnpm --filter @workspace/cardiocare run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/cardiocare", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/cardiocare/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25432"
+BASE_PATH = "/"

@@ -1,6 +1,6 @@
-# [Project name]
+# CardioCare
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+CardioCare is a mobile-friendly educational health-management prototype for tracking blood pressure, medications, lifestyle habits, and cardiovascular education.
 
 ## Run & Operate
 
@@ -22,23 +22,28 @@ _Replace the heading above with the project's name, and this line with one sente
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/cardiocare/src/App.tsx` — CardioCare routes, sample patient data, local interactions, and shared navigation.
+- `artifacts/cardiocare/src/index.css` — CardioCare visual tokens, responsive layout, cards, forms, charts, and modal styling.
+- `artifacts/cardiocare/package.json` — Vite app scripts and frontend dependencies.
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- The first release is frontend-only and uses local React state with sample patient data so the prototype is immediately usable without account setup or external services.
+- Health guidance is intentionally educational and avoids diagnostic claims or medication-change recommendations.
+- All primary tracking flows are available from a shared responsive shell with desktop sidebar navigation and mobile bottom navigation.
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+CardioCare helps a patient review their day, record blood pressure and heart rate, review readings in a chart or history table, manage today's medications, update lifestyle metrics, read short educational guides, and keep care-team details visible. It includes persistent urgent-symptom guidance for severe chest pain, severe difficulty breathing, fainting, sudden weakness, or other serious symptoms.
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+- The user requested a clean, professional, readable, mobile-friendly healthcare experience with simple icons and accessible controls.
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- This is an educational and health-management prototype, not a diagnostic tool. Do not add medication or dose-change recommendations.
+- The app's Vite workflow requires the managed `PORT` and `BASE_PATH` environment variables supplied by the artifact workflow.
 
 ## Pointers
 
